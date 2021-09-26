@@ -1,0 +1,67 @@
+body {
+    position:absolute;
+    margin: 0px 0px;
+    padding: 0px;
+    background:#36271188;
+    overflow-x: hidden;
+}
+
+main{
+    border: 1px solid grey ;
+    border-radius: 20px;
+    position: relative;
+    background-color:#ebebeb;
+    width: 500px;
+    top: 140px;
+    left: 80%;
+    box-shadow: 5px 10px #888888;
+} 
+.Image img{
+    border:2px solid grey;
+    position: relative;
+    border-radius: 60%;
+    top: -70px;
+    box-shadow: 3px 3px 3px 3px  #888888;
+    
+}
+#name{
+    position: relative;
+    font: 24px Georgia, sans-serif;
+    font-weight: bold;
+    top : -50px;
+}
+#collage{
+    display: none;
+    position: relative;
+    font: 17px Georgia, sans-serif;
+    font-weight: normal;
+    top: -40px;
+}
+#address{
+    display: none;
+    position: relative;
+    font: 17px Georgia, sans-serif;
+    font-weight: 900;
+    top: -40px;
+}
+
+.Image p a{
+    color: rgb(0, 0, 0);
+}
+.info{
+    display: none;
+    padding: 9px 49px;
+    position: relative;
+    font: 14px Georgia, sans-serif;
+    font-weight: normal;
+    top: -40px; 
+    line-height: 25px;
+    transition-duration: 3s;
+}
+.contact{
+    position: relative;
+    font: 20px Georgia, sans-serif;
+    font-weight: 900;
+    top: -40px;
+    text-align: center;
+}
